@@ -1,0 +1,132 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Todomarch",
+    "collectionId": "2a914831-3809-4a85-aa8c-7271a215a19a",
+    "dateExported": "2024-11-12T16:26:02.527Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1822ee45-a96d-4e7f-82d0-0b9bc06bd67c",
+            "colId": "2a914831-3809-4a85-aa8c-7271a215a19a",
+            "containerId": "",
+            "name": "signup",
+            "url": "http://127.0.0.1:8000/api/register/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-11-12T14:56:57.755Z",
+            "modified": "2024-11-12T14:58:03.838Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "django"
+                    },
+                    {
+                        "name": "email",
+                        "value": "django@gmail.com"
+                    },
+                    {
+                        "name": "password1",
+                        "value": "Password@123"
+                    },
+                    {
+                        "name": "password2",
+                        "value": "Password@123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "d79d99f9-47ef-4024-86f3-f34d40cb2974",
+            "colId": "2a914831-3809-4a85-aa8c-7271a215a19a",
+            "containerId": "",
+            "name": "token",
+            "url": "http://127.0.0.1:8000/api/token/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-12T15:00:04.824Z",
+            "modified": "2024-11-12T15:00:47.709Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "django"
+                    },
+                    {
+                        "name": "password",
+                        "value": "Password@123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "e9db0599-f9fd-49a0-8dec-3d1e16015ad9",
+            "colId": "2a914831-3809-4a85-aa8c-7271a215a19a",
+            "containerId": "",
+            "name": "taskcreate",
+            "url": "http://127.0.0.1:8000/api/tasks/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-12T16:18:29.771Z",
+            "modified": "2024-11-12T16:21:14.173Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token fd9102fca1401be8f179def198530bbf48c132c9"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "invoice application"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5d391039-6bcd-465a-8db6-c442de2e1f9d",
+            "colId": "2a914831-3809-4a85-aa8c-7271a215a19a",
+            "containerId": "",
+            "name": "taskupdate",
+            "url": "http://127.0.0.1:8000/api/tasks/1/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-11-12T16:21:33.091Z",
+            "modified": "2024-11-12T16:22:18.003Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token fd9102fca1401be8f179def198530bbf48c132c9"
+                }
+            ]
+        },
+        {
+            "_id": "60e87681-5517-4d2e-b274-7a2f00d79a26",
+            "colId": "2a914831-3809-4a85-aa8c-7271a215a19a",
+            "containerId": "",
+            "name": "tasklist",
+            "url": "http://127.0.0.1:8000/api/tasks/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-11-12T16:23:07.657Z",
+            "modified": "2024-11-12T16:23:46.050Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token fd9102fca1401be8f179def198530bbf48c132c9"
+                }
+            ]
+        }
+    ],
+    "ref": "0yTKRWGp82OyXZCOL3VPVQSj7xatIbxweNdT3agI3ZsuHXbQA8IFdpVJA2P-X-vrdL1hJIP_ExjkZPgBZqGxxw"
+}
